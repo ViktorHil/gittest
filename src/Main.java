@@ -6,5 +6,7 @@ public class Main {
         System.out.println("WR!");
         System.out.println("C2!");
         System.out.println("WR!");
+        System.out.println("C2!");
+        System.out.println("WR!");
     }
 }
