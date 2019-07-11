@@ -1,0 +1,202 @@
+    1  ls-l
+    2  ls -l
+    3  ls -l
+    4  pwd
+    5  cd /d/
+    6  ls -l
+    7  mkdir TestGIT
+    8  cd TestGIT
+    9  ls -l
+   10  git config list
+   11  gcc
+   12  git config --list
+   13  gitgui
+   14  git
+   15  mkdir Day1
+   16  cd Day1
+   17  git init
+   18  ls -la
+   19  ls -l
+   20  ls -la
+   21  ls -l
+   22  ls -la
+   23  git status
+   24  ls -l
+   25  git status
+   26  git status
+   27  git status
+   28  git add * -f
+   29  git status
+   30  git reset --hard
+   31  git status
+   32  cat .gitignore
+   33  git status
+   34  ls -l
+   35  git status
+   36  ls -la
+   37  cd ..
+   38  ls -la
+   39  cd Test1
+   40  ls -la
+   41  git init
+   42  ls -l
+   43  git add src
+   44  ls -l
+   45  git status
+   46  git commit -m "my first commit"
+   47  git status
+   48  git status
+   49  git status
+   50  git log
+   51  ls -l
+   52  cd src
+   53  ls -l
+   54  git status
+   55  git add Main.java
+   56  git status
+   57  git commit -am "C1"
+   58  git status
+   59  git status
+   60  git log
+   61  git status
+   62  git diffMain.java
+   63  git diff Main.java
+   64  git status
+   65  git add ../.gitignore
+   66  git commit -m "+ gitignore"
+   67  git status
+   68  git diff
+   69  git diff
+   70  git commit -m "m-3"
+   71  git add Main.java
+   72  git commit -m "m-3"
+   73  git status
+   74  cd ..
+   75  git status
+   76  git status
+   77  git add .gitignore
+   78  git commit -m "gitignore"
+   79  git log
+   80  git log help
+   81  git log --help
+   82  git log --decorate=full
+   83  git log --decorate=full
+   84  git log --graph
+   85  git log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph
+   86  git config --local alias.mylog "log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph”
+   87  git config --local alias.mylog "log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph”
+   88  git mylog
+   89  git log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph
+   90  git config --local alias.mylog "log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph”
+   91  asdasd
+   92  git config --local alias.mylog "log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph"
+   93  git  mylog
+   94  git  mylog
+   95  git config --local alias.mylog "log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph"
+   96  git log --pretty=format:'%Cred%h%Creset - %s %C(#00aa00)(%cr)%Creset %C(#8800aa)<%an>%Creset' --graph
+   97  git status
+   98  git diff
+   99  git  mylog
+  100  git show
+  101  git mylog
+  102  git show f4f3cd0
+  103  git show b9abf4e
+  104  git
+  105  git log
+  106  git checkout 6fd338d736b760d5baca242c0650b6507f9cbdd5
+  107  git log
+  108  git checkout master
+  109  git log
+  110  git checkout f4f3cd068f4b2684726dc3d64238fb8443727efb
+  111  git status
+  112  ls -l
+  113  ls -ls
+  114  ls -la
+  115  git log --graph
+  116  git checkout b1
+  117  git checkout b1 -f
+  118  git log --graph
+  119  git checkout master
+  120  git log --graph
+  121  git checkout b1
+  122  git status
+  123  git merge master
+  124  git status
+  125  git add src/Main.java
+  126  git status
+  127  git commit -m "Merge"
+  128  git status
+  129  git checkout master
+  130  git checkout b1
+  131  git reflog
+  132  git checkout master
+  133  git merge b1
+  134  git status
+  135  git remote add origin https://github.com/ViktorHil/gittest.git
+  136  git push origin master
+  137  git status
+  138  git add src/Main.java
+  139  git commit -m "Local VS Remote"
+  140  git push
+  141  git push --set-upstream origin master
+  142  git pull
+  143  git branch --set-upstream-to=origin/master master
+  144  git push
+  145  git pull
+  146  git status
+  147  git addsrc/Main.java
+  148  git add src/Main.java
+  149  git commit -m "Local VS Remote2"
+  150  git push
+  151  git log --graph
+  152  exit
+  153  d:
+  154  cd /d/
+  155  ls
+  156  cd TestGIT/
+  157  ls
+  158  cd Test1
+  159  ls -l
+  160  git log
+  161  git show =======
+  162          System.out.println("fsdfsdf");
+  163  >>>>>>> 27bc2707470074e919e475bb875d2154bc77b770
+  164  git show 25cbc1e7
+  165  git checkout 25cbc1e7
+  166  git status
+  167  git add src/TestBranch3.java
+  168  git status
+  169  git commit -m "commit for branch"
+  170  git log --graph
+  171  git branch -b branch3
+  172  git branch branch3
+  173  git log --graph
+  174  git status
+  175  git commit -am "branch3"
+  176  git log --graph
+  177  git checkout master
+  178  git branch branch3 c4bee3d
+  179  git log
+  180  git log
+  181  git reflog
+  182  git checkout c4bee3d
+  183  git status
+  184  git pull
+  185  git status
+  186  git checkout -b branch3
+  187  git checkout -b branch4
+  188  git commit -am "branch4"
+  189  git status
+  190  git checkout master
+  191  git cherry-pick 
+  192  git cherry-pick 9a66190d
+  193  git status
+  194  git show
+  195  git push
+  196  git revert af0703bd
+  197  git revert-m 1 af0703bd
+  198  git revert -m 1 af0703bd
+  199  git show c09e4eb7
+  200  git revert -m 1 09eec457
+  201  git push
+  202  history > git_training.txt
